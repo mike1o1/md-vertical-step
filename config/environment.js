@@ -40,6 +40,7 @@ module.exports = function(environment) {
   }
 
   if (environment === 'production') {
+    ENV.locationType = 'none';
   }
 
   return ENV;
