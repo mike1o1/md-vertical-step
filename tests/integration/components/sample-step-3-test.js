@@ -12,5 +12,5 @@ test('it renders', function(assert) {
   this.render(hbs`{{sample-step-3}}`);
 
   assert.equal(this.$().text().trim(), '');
-  
+
 });
